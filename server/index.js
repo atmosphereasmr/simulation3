@@ -50,8 +50,8 @@ const express = require('express')
 
   app.get('/auth', passport.authenticate('auth0'))
   app.get('/auth/callback', passport.authenticate('auth0', {
-    successRedirect: 'http://localhost:3000/#/profile',
-    failureRedirect: 'http://localhost:3000/#/'
+    successRedirect: 'http://localhost:5000/profile',
+    failureRedirect: 'http://localhost:5000/'
   }))
 
   passport.serializeUser(function(user, done) {
