@@ -1,0 +1,134 @@
+.header-bar {
+  width: 100vw;
+  height: 50px;
+  background: -webkit-linear-gradient(left, #FF7A6E, #FF9770); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #FF7A6E, #FF9770); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #FF7A6E, #FF9770); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #FF7A6E, #FF9770); /* Standard syntax */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: 0px 6px 40px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 40px -9px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 40px -9px rgba(0,0,0,0.75);
+}
+
+body {
+  background-color: #fffaef;
+}
+
+.header-third {
+  width: 33%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-third-main {
+  width: 33%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tiny-icon {
+  margin-left: 10px;
+}
+
+.main-page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+}
+
+.edit-and-instructions-container {
+  width: 60vw;
+  height: 175px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit {
+  width: 33%;
+  height: 175px;
+  background-color: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+}
+
+.profile-pic-main {
+  height: 125px;
+  width: 40%;
+  border: 2px solid #FF9770;
+}
+
+.edit-profile-button {
+  height: 35px;
+  width: 40%;
+  background-image: -webkit-radial-gradient(circle at 50% 0, #FFFFFF, #F1ECEB); /* For Safari 5.1 to 6.0 */
+  background-image: -o-radial-gradient(circle at 50% 0, #FFFFFF, #F1ECEB); /* For Opera 11.1 to 12.0 */
+  background-image: -moz-radial-gradient(circle at 50% 0, #FFFFFF, #F1ECEB); /* For Firefox 3.6 to 15 */
+  background-image: radial-gradient(circle at 50% 0, #FFFFFF, #F1ECEB); /* Standard syntax */
+  border: solid 1px #ccc3c3;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container {
+  width: 63%;
+  height: 175px;
+  background-color: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  width: 95%;
+  height: 95%;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.friend-scroller-container {
+  width: 60vw;
+  height: 600px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+  background-color: white;
+}
+
+.friend-scroller-header {
+  width: 60vw;
+  background-color: pink;
+  height: 50px
+}
